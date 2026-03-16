@@ -16,7 +16,7 @@ int main()
     cout << "| Group Members:                                                        |" << endl;
     cout << "| 1. Gabriella Vazquez (gv0244) gabriellavazquez@my.unt.edu             |" << endl;
     cout << "| 2. Perla Diana Sanchez Rincon (pds0137) perlasanchezrincon@my.unt.edu |" << endl;
-    cout << "| 3. Michelle Mata Martinez (mam1460) MichelleMataMartinez@my.unt.edu   |" << endl;
+    cout << "| 3. Michell Mata Martinez (mam1460) MichellMataMartinez@my.unt.edu     |" << endl;
     cout << "| 4. Casiel Montoya Muro (cm1645) casielmontoyamuro@my.unt.edu          |" << endl;
     cout << "+-----------------------------------------------------------------------+" << endl;
 
