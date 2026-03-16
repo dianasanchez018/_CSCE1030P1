@@ -36,7 +36,7 @@ int main()
     
             for (int i = 0; i < userName.length(); i++) {
                 if (!isalnum(userName[i]) && !isspace(userName[i])) {
-                    cout << "Your name must oontain alphanumeric chacracters and spaces only." << endl;
+                    cout << "Your name must contain alphanumeric characters and spaces only." << endl;
                     cout << "Please re-enter your name." << endl;
                     isInvalid = true;
                     break;
@@ -53,7 +53,7 @@ int main()
             do {
                 randnum1 = rand() % 51 + 50; //range of random number between 50 - 100 / inlcusive
                 randnum2 = rand() % 51 + 50;
-            } while (randnum1>=randnum2); //RULE : randnum1 must be LESS than randnum2. If not keep generating. 
+            } while (randnum1>=randnum2); //RULE : randnum1 must be LESS than randnum2. If not, keep generating. 
                 cout<<"Your two random numbers have been generated!\n"<<endl;
                 bool solved = false; // boolean if the user guess corrected
     // cout<<"Random number 1: "<<randnum1<<endl<<"Random number 2: "<<randnum2; (double checking it meets requirement)
@@ -101,7 +101,7 @@ int main()
                     cout<<"Better luck next time! The numbers were: "<<randnum1<<" and "<<randnum2<<endl;
                     break;
                 case EXIT:
-                    cout<<"Exiting program. Goodbye!"<<endl;
+                    cout<<"Exiting game. Goodbye!"<<endl;
                     break;
                 default:
                     cout<<"Error: Please enter options (1-6)only! \n"<<endl;
